@@ -21,6 +21,8 @@
 		2E6234BD19392A980042AFE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E62349F19392A980042AFE5 /* UIKit.framework */; };
 		2E6234C519392A980042AFE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E6234C319392A980042AFE5 /* InfoPlist.strings */; };
 		2E6234C719392A980042AFE5 /* DivvyBikesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6234C619392A980042AFE5 /* DivvyBikesTests.m */; };
+		2E6234D219392D5F0042AFE5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6234D119392D5F0042AFE5 /* DetailViewController.m */; };
+		2E6234D71939362B0042AFE5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6234D61939362B0042AFE5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		2E6234C219392A980042AFE5 /* DivvyBikesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DivvyBikesTests-Info.plist"; sourceTree = "<group>"; };
 		2E6234C419392A980042AFE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E6234C619392A980042AFE5 /* DivvyBikesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivvyBikesTests.m; sourceTree = "<group>"; };
+		2E6234D019392D5F0042AFE5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2E6234D119392D5F0042AFE5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2E6234D61939362B0042AFE5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6234D71939362B0042AFE5 /* MapKit.framework in Frameworks */,
 				2E62349E19392A980042AFE5 /* CoreGraphics.framework in Frameworks */,
 				2E6234A019392A980042AFE5 /* UIKit.framework in Frameworks */,
 				2E62349C19392A980042AFE5 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		2E62349A19392A980042AFE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E6234D61939362B0042AFE5 /* MapKit.framework */,
 				2E62349B19392A980042AFE5 /* Foundation.framework */,
 				2E62349D19392A980042AFE5 /* CoreGraphics.framework */,
 				2E62349F19392A980042AFE5 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				2E6234AD19392A980042AFE5 /* Main.storyboard */,
 				2E6234B019392A980042AFE5 /* ViewController.h */,
 				2E6234B119392A980042AFE5 /* ViewController.m */,
+				2E6234D019392D5F0042AFE5 /* DetailViewController.h */,
+				2E6234D119392D5F0042AFE5 /* DetailViewController.m */,
 				2E6234B319392A980042AFE5 /* Images.xcassets */,
 				2E6234A219392A980042AFE5 /* Supporting Files */,
 			);
@@ -252,6 +261,7 @@
 				2E6234B219392A980042AFE5 /* ViewController.m in Sources */,
 				2E6234AC19392A980042AFE5 /* AppDelegate.m in Sources */,
 				2E6234A819392A980042AFE5 /* main.m in Sources */,
+				2E6234D219392D5F0042AFE5 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +466,7 @@
 				2E6234CC19392A980042AFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E6234CD19392A980042AFE5 /* Build configuration list for PBXNativeTarget "DivvyBikesTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				2E6234CF19392A980042AFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
